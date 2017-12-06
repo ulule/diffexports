@@ -1,20 +1,23 @@
 diff
 ====
 
-This short python script will allow you to compare an old export (csv)
+This short python script will allow you to compare an old export
 with a new one.
+
+It only supports CSV files, for an advanced usage we highly suggest you to
+use our [API](http://developers.ulule.com/).
 
 Installation
 ------------
 
-You must have Python installed on your laptop.
+You must have [Python](https://www.python.org/downloads/) installed on your computer,
+this script supports both Python 2 and 3.
 
-Install dependencies:
+**Install dependencies**
 
 ```console
 make dependencies
 ```
-
 
 Usage
 -----

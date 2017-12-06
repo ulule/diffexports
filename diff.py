@@ -6,9 +6,13 @@ import csv
 
 HASH_CHARACTER = '#'
 IGNORED_KEYS = (
+    'Reward',
     'Contrepartie',
+    'Quanity',
     'Quantité',
+    'Payment method'
     'Type de paiement',
+    'Language',
     'Langue',
 )
 
