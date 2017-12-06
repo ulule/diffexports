@@ -1,0 +1,29 @@
+diff
+====
+
+This short python script will allow you to compare an old export (csv)
+with a new one.
+
+Installation
+------------
+
+You must have Python installed on your laptop.
+
+Install dependencies:
+
+```console
+make dependencies
+```
+
+
+Usage
+-----
+
+Assuming your previous file is named `old.csv` and you want to compare it
+with a new one named `new.csv`.
+
+```console
+python diff.py --src=old.csv --dst=new.csv --output=output.csv
+```
+
+You can now retrieve the diff between these two files in `output.csv`.
